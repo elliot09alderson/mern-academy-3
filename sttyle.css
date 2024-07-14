@@ -52,6 +52,8 @@ main {
 
 a{
     text-decoration: none !important;
+    color: #000000 !important;
+
 }
 .phone {
     mix-blend-mode: difference;

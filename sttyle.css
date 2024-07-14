@@ -50,7 +50,9 @@ main {
 }
 /* menu starts here   */
 
-
+a{
+    text-decoration: none !important;
+}
 .phone {
     mix-blend-mode: difference;
     

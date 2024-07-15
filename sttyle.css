@@ -12,10 +12,7 @@ body {
     height: 100%;
     box-sizing: border-box;
 }
-button a{ 
-    text-decoration: none;
-    color: black;
-}
+
 .spacex {
     padding: 0 18%;
 }
@@ -50,11 +47,7 @@ main {
 }
 /* menu starts here   */
 
-a{
-    text-decoration: none !important;
-    color: #000000 !important;
 
-}
 .phone {
     mix-blend-mode: difference;
     
@@ -80,7 +73,7 @@ a{
     align-items: center;
     background-color: #30323500;
     clip-path: polygon(81.05% 9.1%, 92% 9.1%, 92% 10.1%, 81.05% 10.1%);
-    color: #9d9999;
+    color: #827f7f;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
@@ -93,7 +86,7 @@ a{
     max-width: 100%;
   }
   .active .menu {
-    background-color: #050505;
+    background-color: #000000;
     -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
     clip-path: polygon(101% -1%, 101% 101%, -1% 101%, -1% -1%);
@@ -132,7 +125,7 @@ a{
 }
 .nav-svg{ 
     
-    color: black;
+    color: rgb(255, 252, 252);
 }
   .x {
     
@@ -271,17 +264,22 @@ a{
     font-size: 20px;
     font-weight: 700;   
     font-variant: small-caps;
+    text-decoration: none;
 }
 
 
 .button1 {
     background-color: #FF9800;
 }
+.button1 a {  
+    color: rgb(0, 0, 0);
+
+}
 .button1:hover{ 
     background-color: #ffffff;
 }
 .button2 a{ 
-    color: rgb(179, 172, 172);
+    color: rgb(255, 255, 255);
 }
 .button2:hover a{ 
 
@@ -299,13 +297,14 @@ a{
     color: rgb(255, 255, 255);
 }
 
-
 #button i{
-    
-    padding: .6vw;
+    padding: 10px;
     border-radius: 30px;
     transition-duration: .3s;
     margin: 1vw;
+}
+.arrow i{ 
+    font-size: 25px;
 }
 
 #button:hover i{
@@ -324,11 +323,8 @@ a{
 }
 
 
-
-
-
 .page-1 {
-    background: white;
+    background: rgb(255, 255, 255);
     width: 100%;
     margin-top: 150px;
     display: flex;
@@ -1225,6 +1221,9 @@ thin{
      display: none;
         width: 90%;
     }
+    .arrow i{ 
+        font-size: 25px;
+    }
 
     .buttons {margin-top: 30px;
         min-width: 180px;
@@ -1239,6 +1238,7 @@ thin{
         padding: 28px 30px;
         height: 50px;
         white-space:nowrap;
+        width: 250px;
     }
 
     #button h2 {
@@ -1250,13 +1250,11 @@ thin{
         text-decoration: none;
         font-size: 18px;
     }
-    .button2{
-        width: 250px;
-    }
+  
 
     #button i {
         transform: scale(1.0);
-        padding: 1.0vh;
+        padding: 10px;
         border-radius: 30px;
         transition-duration: .3s;
         margin-right: 3vh;

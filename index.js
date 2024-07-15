@@ -347,9 +347,7 @@ gsap.from(".img-container img",{
             document.querySelector('.phone').classList.toggle('active')
             const sectionId = this.querySelector('a').getAttribute('href'); // Get href value
             const section = document.querySelector(sectionId);
-            this.querySelector('a').style.color='red'
-            console.log(options);
-
+           
 
             ;// Find corresponding section
 
